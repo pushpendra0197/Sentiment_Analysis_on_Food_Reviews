@@ -1,4 +1,6 @@
- I have created  Restaurant Food Review based on output Liked or Disliked after checking with all classification supervised machine learning algorithm and chose best Accuracy given algorithm and deployed over Modelbit deployment platform so model can accessible from anywhere. Kindly install modelbit in your IDE(jupyter,colab) by using (pip install modelbit) import modelbit module.
+I have created  Restaurant Food Review  NLP Model based on output Liked or Disliked after clean the data by removing stopwords,puctuation,special character by using different 
+nltk,spacy,re libraries and  trained model with all  classification supervised machine learning algorithm and chose best Accuracy given algorithm and deployed over Modelbit deployment platform.
+platform so model can accessible from anywhere. Kindly install modelbit in your IDE(jupyter,colab) by using (pip install modelbit) import modelbit module.
 
 Command for Curl-
 
