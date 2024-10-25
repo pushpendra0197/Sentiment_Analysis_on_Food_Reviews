@@ -1,5 +1,4 @@
-I have created  Restaurant Food Review  NLP Model based on output Liked or Disliked after clean the data by removing stopwords,puctuation,special character by using different 
-nltk,spacy,re libraries and  trained model with all  classification supervised machine learning algorithm and chose best Accuracy given algorithm and deployed over Modelbit deployment platform.
+I have created  Restaurant Food Review Model based on output Liked or Disliked after clean the data by  using different NLP technqiues stopwords removal,punctuation removal,special character removal. And trained model with all classification supervised machine learning algorithm and chose best Accuracy given algorithm and deployed over Modelbit deployment platform.
 platform so model can accessible from anywhere. Kindly install modelbit in your IDE(jupyter,colab) by using (pip install modelbit) import modelbit module.
 
 Command for Curl-
