@@ -17,7 +17,6 @@ from sklearn.feature_extraction.text import  CountVectorizer
 
 
 
-model=joblib.load(r"review_prediction_model")
 fitdata=joblib.load(r"fit_data")
 cv=CountVectorizer(max_features=1500)
 x=cv.fit(fitdata)
@@ -40,6 +39,7 @@ if button:
     
        return review
     input_vec=cv.transform([input])
+    model=joblib.load(r"review_prediction_model")
     prediction=model.predict(input_vec)
     if prediction=="Disliked":
         header=st.subheader("👎Disliked")
